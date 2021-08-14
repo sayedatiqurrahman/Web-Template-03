@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: Georgia;
+}
+/*-------------------------Row 1---------------------------*/
+#row1{
+    height: 50px;
+    width:100%;
+    background-color: #fff;
+}
+#row1 .top_icon{
+    margin-top: 7px;
+   
+}
+#row1 .top_icon i{
+    padding: 10px;
+    border-radius:100%;
+    color: #fff;
+    background-color:#d2d2d2;
+    margin-right: 5px;
+    transition: 1s;
+}
+#row1 .top_icon i:first-child {
+    margin-left: 0;
+}
+#row1 .top_icon i:hover{
+    background: #1CBA63;    
+}
+
+#row1 .top_menu{
+    margin-top: 15px;
+    
+}
+#row1 .top_menu ul{}
+#row1 .top_menu ul li{
+    display: inline-block;
+    color: #999999;
+}
+
+#row1 .top_menu ul li a:hover{
+     color: #1CBA63;
+}
+#row1 .top_menu ul li a{
+    text-decoration: none;
+    color: #999999;
+    transition: 1s;
+}
+
+/*-------------------------Row 2---------------------------*/
+
+#row2{
+    height: 300px;
+    width: 100%;
+    background: #ebebeb; 
+    font-family: georgia;
+    padding-top: 50px;
+}
+#row2 .logo{}
+
+#row2 .logo h3::first-letter{
+    font-size: 30px;
+}
+#row2 .logo_des_hed span{
+    margin-left: -10px;
+}
+#row2 .logo_des_hed {
+    margin-top: 17px;
+    margin-left: -50px;
+    border-left: 2px solid #999999;
+}
+
+#row2 .row2_form button{
+    transition: 1s;
+}
+#row2 .row2_form:hover button{
+    transform: rotate(720deg);
+   
+}
+#row2 form{
+    margin-top: 30px;
+}
+
+/*-------------------------Row 3---------------------------*/
+
+#row3{
+    margin-top: -140px;
+    height: 200px;
+    background-color: #fff;
+}
+#row3 .navbar-default{
+    background-color: #5cb85c !important;
+}
+#row3 .navbar{
+   border-color: #4cae4c;
+    transition: 1s;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a {
+    color: #5da92c;
+    background-color: #0f630a8f;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #40892f;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li{
+    transition: 1s;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li:hover {
+    color: #555;
+    background-color: #40892f;
+   
+}
+#row3 .menu li a{
+    color: #fff;
+   
+}
+.{}
+/*-------------------------Row 4---------------------------*/
+#row4{
+    margin-top: -128px ;
+}
+#row4 .item img{
+    height: 450px;
+    width: 1100px;
+    margin: 0 auto;
+}
+.carousel-caption {
+    height: 117px;
+    width: 454px;
+    background-color: #bfbfbfa6;
+    border-radius: 10px;
+    color: #231f1fbf;
+    padding: 10px;
+    margin-left: 420px;
+    text-align: justify;
+    border: 1px solid #fff;
+}
+.carousel-caption h2{
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.carousel-caption:hover{
+   color: #000;
+}
+.carousel-indicators li{
+    background: #333333;
+    margin-bottom: -56px;
+    border: 3px solid #333333;
+    height:15px;
+    width:15px;
+    border-radius:100%;
+}
+.carousel-indicators .active {
+    margin-bottom: -56px;
+    border: 2px solid #333333;
+    background-color: #fff;
+    height:15px;
+    width:15px;
+    border-radius:100%;
+}
+/*-------------------------Row 5---------------------------*/
+#row5{
+    padding-top:70px;
+    height: 400px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+#row5 .blog_title .hr_role{
+     width:1100px;
+    height: 10px;
+    background: url(../img/rectingular_row.png);
+     margin: 0 auto;
+}
+
+#row5 .blog_title h3{
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+    width: 185px;
+     margin: 0 auto;
+    margin-top: -15px;
+}
+#row5 .blog{
+    margin-top: 40px;
+}
+#row5 .blog  img{
+    height: 64px;
+    width: 64px;
+    transition: .4s;
+}
+#row5 .blog  img:hover{
+    width: 80px;
+    height:80px;
+    transform: rotate(360deg);
+}
+
+#row5 .blog  h4{
+    margin-top: -2.2px;
+    color: #40892f;
+}
+#row5 .blog  p{
+    color: #999999;
+    text-align: justify;
+}
+
+#row5 .blog .bottom_blog{
+    margin-top: 30px;
+}
+/*-------------------------Row 6---------------------------*/
+
+
+#row6{
+    margin-top: 30px;
+   height: 500px;
+    width: 100%;
+}
+
+#row6 .title .hr_role2{
+    background: url(../img/hr2.png);
+     height: 5px;
+    width: 100%;
+}
+
+#row6 .title h3{
+    font-size: 16px;
+    background-color: #fff;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    margin-top: -10px;
+}
+#row6 .blog_row {
+    margin-bottom: 90px;
+}
+#row6 .blog_row .row{
+    margin-top: 20px;
+}
+#row6 .blog_row   h4{
+    color: #333333;
+}
+#row6 .blog_row .row  p{
+    color: #999999;
+    text-align: justify;
+}
+#row6 .blog_row .row  a{
+    color: #40892f;
+    text-decoration: none;
+}
+#row6 .blog_row .blog_row2 h4 {
+    height: 42px;
+    line-height: 0px;
+}
+#row6 .blog_row .blog_row2 h4 a {
+    margin-left: 59px;
+    font-size:15px; 
+}
+#row6 .rec_box{
+    margin-top: 30px;
+    height: 105px;
+    width: 100%;
+    margin: auto;
+    background: #40892f;
+    
+    border-radius: 15px;
+}
+
+#row6  .rec_box  h1, .rec_box p {
+    color: #fff;
+    padding-left: 20px;
+     
+}
+#row6  .rec_box  h1{
+    font-size: 44px;
+    line-height: 30px;
+    
+}
+#row6 .rec_box p{
+      font-size: 20px;
+}
+#row6 .rec_box button {
+    font-size: 32px;
+    padding: 10px 21px;
+    border-radius: 15px;
+    margin-top: 21px;
+    color: #40892f;
+    border: none;
+    transition: .5s;
+}
+#row6 .rec_box button:hover{
+    filter: drop-shadow(5px 5px #0d0d1347);
+}
+button{
+    filter: drop-shadow(2px 2px #0d0d1347);
+}
+
+/*-------------------------Row 7---------------------------*/
+#row7 .row7_content{
+    height: 500px;
+    width: 100%;
+    background-color: #ebebeb;
+    border-top: 3px solid #d2d2d2;
+    padding-top: 30px;
+    
+}
+#row7 .bottom_sec .col-md-8 h4{
+    margin-top: -2px;
+    color: #2b7b17;
+}
+#row7 .bottom_sec img{
+    height: 95px;
+    width: 95px;
+    margin-left: 15px;
+    border: 2px solid #333333;
+}
+
+#row7 .bottom_sec ul{
+    list-style: none;
+
+}
+
+/*-------------------------Row 8 Footer Section---------------------------*/
+
+#rown8{
+    height: 60px;
+    width: 100%;
+     background-color: #ebebeb;
+    border-top: 3px solid #d2d2d2;
+    padding-top: 20px;
+}
